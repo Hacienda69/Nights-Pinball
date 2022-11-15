@@ -10,10 +10,8 @@ class ModuleTextures;
 class ModuleInput;
 class ModuleAudio;
 class ModulePlayer;
-class ModulePhysics;
-class ModuleFadeToBlack;
-class ModuleSceneTitle;
 class ModuleSceneIntro;
+class ModulePhysics;
 
 class Application
 {
@@ -26,8 +24,6 @@ public:
 	ModulePlayer* player;
 	ModuleSceneIntro* scene_intro;
 	ModulePhysics* physics;
-	ModuleFadeToBlack* fade_to_black;
-	ModuleSceneTitle* scene_title;
 
 private:
 
